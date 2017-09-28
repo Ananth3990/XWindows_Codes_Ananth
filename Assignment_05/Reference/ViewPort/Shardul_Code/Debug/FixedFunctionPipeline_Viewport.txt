@@ -1,0 +1,68 @@
+Log file created successfully!!
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+Keydown:46
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+=====In WndProc()========
+viewportwidth=848.481018
+viewportheight=477.036865
+height=1366.000000
+width=768.000000Animebool=1
+=====In WndProc()========
+Keydown:1b
+Under Case 'Escape'!
+=====In WndProc()========
+Log file closed successfully!!

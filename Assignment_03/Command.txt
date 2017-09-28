@@ -1,0 +1,1 @@
+g++  -std=c++11 -o Ganesha Test.cpp -lX11 -lGL -lGLU
