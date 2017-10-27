@@ -1,0 +1,23 @@
+
+FOR FILE Server.c
+*Steps for creating .so file
+	1.	gcc -o Server.o -c -fPIC Server.c 
+	
+	2.	gcc -o Server.so Server.o -shared 
+
+
+
+FOR FILE Client.c
+*Steps for using .so file
+
+1.	gcc -S -o Client.s Client.c
+
+2.	as -o Client.o Client.s
+
+3.	ld -o AnanthC -lc -dynamic-linker /lib64/ld-linux-x86-64.so.2 /home/ananth/Desktop/Shared_Object/Server.so -ldl Client.o -e main
+
+4.	./AnanthC
+
+
+
+(NOTE:- In step 3 after the "ld-linux-x86-64.so.2", the Absolute path of shared object is provided which vary.)

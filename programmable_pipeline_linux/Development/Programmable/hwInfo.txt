@@ -1,0 +1,403 @@
+ananth-lenovo-g50-80
+    description: Notebook
+    product: 80E5 (LENOVO_MT_80E5_BU_idea_FM_Lenovo G50-80)
+    vendor: LENOVO
+    version: Lenovo G50-80
+    serial: PF06XDF8
+    width: 64 bits
+    capabilities: smbios-2.7 dmi-2.7 vsyscall32
+    configuration: administrator_password=disabled boot=normal chassis=notebook family=IDEAPAD frontpanel_password=disabled keyboard_password=disabled power-on_password=disabled sku=LENOVO_MT_80E5_BU_idea_FM_Lenovo G50-80 uuid=AC2F42A2-A7A2-E411-A961-68F72872C07D
+  *-core
+       description: Motherboard
+       product: Lenovo G50-80
+       vendor: LENOVO
+       physical id: 0
+       version: 31900059WIN
+       serial: PF06XDF8
+       slot: Type2 - Board Chassis Location
+     *-firmware
+          description: BIOS
+          vendor: LENOVO
+          physical id: 0
+          version: B0CN40WW
+          date: 06/20/2014
+          size: 128KiB
+          capacity: 6080KiB
+          capabilities: pci upgrade shadowing cdboot bootselect edd int13floppynec int13floppytoshiba int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int9keyboard int10video acpi usb biosbootspecification uefi
+     *-cpu
+          description: CPU
+          product: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 4
+          bus info: cpu@0
+          version: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+          serial: To Be Filled By O.E.M.
+          slot: U3E1
+          size: 2201MHz
+          capacity: 2700MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap xsaveopt dtherm ida arat pln pts cpufreq
+          configuration: cores=2 enabledcores=2 threads=4
+        *-cache:0
+             description: L1 cache
+             physical id: 6
+             slot: L1 Cache
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: synchronous internal write-back instruction
+        *-cache:1
+             description: L2 cache
+             physical id: 7
+             slot: L2 Cache
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: synchronous internal write-back unified
+        *-cache:2
+             description: L3 cache
+             physical id: 8
+             slot: L3 Cache
+             size: 3MiB
+             capacity: 3MiB
+             capabilities: synchronous internal write-back unified
+     *-cache
+          description: L1 cache
+          physical id: 5
+          slot: L1 Cache
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: synchronous internal write-back data
+     *-memory
+          description: System Memory
+          physical id: 25
+          slot: System board or motherboard
+          size: 8GiB
+        *-bank:0
+             description: DIMM [empty]
+             physical id: 0
+             slot: ChannelA-DIMM0
+        *-bank:1
+             description: SODIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+             product: 9905428-123.A00LF
+             vendor: Kingston
+             physical id: 1
+             serial: 31170920
+             slot: ChannelB-DIMM0
+             size: 8GiB
+             width: 64 bits
+             clock: 1600MHz (0.6ns)
+     *-pci
+          description: Host bridge
+          product: Broadwell-U Host Bridge -OPI
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 09
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdw_uncore
+          resources: irq:0
+        *-display
+             description: VGA compatible controller
+             product: Broadwell-U Integrated Graphics
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 09
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:49 memory:c0000000-c0ffffff memory:b0000000-bfffffff ioport:4000(size=64)
+        *-multimedia:0
+             description: Audio device
+             product: Broadwell-U Audio Controller
+             vendor: Intel Corporation
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 09
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:51 memory:c1210000-c1213fff
+        *-usb:0
+             description: USB controller
+             product: Wildcat Point-LP USB xHCI Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:45 memory:c1200000-c120ffff
+        *-communication
+             description: Communication controller
+             product: Wildcat Point-LP MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:48 memory:c121b000-c121b01f
+        *-multimedia:1
+             description: Audio device
+             product: Wildcat Point-LP High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=snd_hda_intel latency=64
+             resources: irq:50 memory:c1214000-c1217fff
+        *-pci:0
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 ioport:2000(size=4096) memory:a0100000-a02fffff ioport:a0300000(size=2097152)
+        *-pci:1
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #3
+             vendor: Intel Corporation
+             physical id: 1c.2
+             bus info: pci@0000:00:1c.2
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 ioport:3000(size=4096) memory:c1100000-c11fffff
+           *-network
+                description: Ethernet interface
+                product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: eth0
+                version: 10
+                serial: 68:f7:28:72:c0:7d
+                size: 10Mbit/s
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress msix vpd bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-NAPI duplex=half firmware=rtl8168g-3_0.0.1 04/23/13 latency=0 link=no multicast=yes port=MII speed=10Mbit/s
+                resources: irq:47 ioport:3000(size=256) memory:c1104000-c1104fff memory:c1100000-c1103fff
+        *-pci:2
+             description: PCI bridge
+             product: Wildcat Point-LP PCI Express Root Port #4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: e3
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44 memory:c1000000-c10fffff
+           *-network
+                description: Wireless interface
+                product: BCM43142 802.11b/g/n
+                vendor: Broadcom Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                logical name: wlan0
+                version: 01
+                serial: 38:b1:db:d7:b3:bf
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+                configuration: broadcast=yes driver=wl0 driverversion=6.30.223.248 (r487574) ip=192.168.0.109 latency=0 multicast=yes wireless=IEEE 802.11abg
+                resources: irq:19 memory:c1000000-c1007fff
+        *-usb:1
+             description: USB controller
+             product: Wildcat Point-LP USB EHCI Controller
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:23 memory:c1219000-c12193ff
+        *-isa
+             description: ISA bridge
+             product: Wildcat Point-LP LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-storage
+             description: SATA controller
+             product: Wildcat Point-LP SATA Controller [AHCI Mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 03
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:46 ioport:4088(size=8) ioport:4094(size=4) ioport:4080(size=8) ioport:4090(size=4) ioport:4060(size=32) memory:c1218000-c12187ff
+        *-serial UNCLAIMED
+             description: SMBus
+             product: Wildcat Point-LP SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 03
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:c121a000-c121a0ff ioport:4040(size=32)
+     *-scsi:0
+          physical id: 1
+          logical name: scsi0
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: ST1000LM024 HN-M
+             vendor: Seagate
+             physical id: 0.0.0
+             bus info: scsi@0:0.0.0
+             logical name: /dev/sda
+             version: 0001
+             serial: S30YJ9AG122407
+             size: 931GiB (1TB)
+             capabilities: gpt-1.00 partitioned partitioned:gpt
+             configuration: ansiversion=5 guid=96609da7-9b36-48f2-b6fb-60c94fd3e26b sectorsize=4096
+           *-volume:0
+                description: Windows NTFS volume
+                vendor: Windows
+                physical id: 1
+                bus info: scsi@0:0.0.0,1
+                logical name: /dev/sda1
+                version: 3.1
+                serial: b619-bf2a
+                size: 448MiB
+                capacity: 449MiB
+                capabilities: boot precious readonly hidden nomount ntfs initialized
+                configuration: clustersize=4096 created=2017-07-23 14:30:15 filesystem=ntfs label=Recovery modified_by_chkdsk=true mounted_on_nt4=true name=Basic data partition resize_log_file=true state=dirty upgrade_on_mount=true
+           *-volume:1
+                description: Windows FAT volume
+                vendor: MSDOS5.0
+                physical id: 2
+                bus info: scsi@0:0.0.0,2
+                logical name: /dev/sda2
+                logical name: /boot/efi
+                version: FAT32
+                serial: 0e1b-11b7
+                size: 93MiB
+                capacity: 99MiB
+                capabilities: boot fat initialized
+                configuration: FATs=2 filesystem=fat mount.fstype=vfat mount.options=rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro name=EFI system partition state=mounted
+           *-volume:2
+                description: reserved partition
+                vendor: Windows
+                physical id: 3
+                bus info: scsi@0:0.0.0,3
+                logical name: /dev/sda3
+                serial: 81505705-d24a-4bb8-950a-abbb9e9105d7
+                capacity: 15MiB
+                capabilities: nofs
+                configuration: name=Microsoft reserved partition
+           *-volume:3
+                description: Windows NTFS volume
+                vendor: Windows
+                physical id: 4
+                bus info: scsi@0:0.0.0,4
+                logical name: /dev/sda4
+                version: 3.1
+                serial: 167bb922-7738-d44a-a4fc-bbd35fd49ca8
+                size: 430GiB
+                capacity: 430GiB
+                capabilities: ntfs initialized
+                configuration: clustersize=4096 created=2017-07-23 14:30:28 filesystem=ntfs name=Basic data partition state=clean
+           *-volume:4
+                description: Windows NTFS volume
+                vendor: Windows
+                physical id: 5
+                bus info: scsi@0:0.0.0,5
+                logical name: /dev/sda5
+                version: 3.1
+                serial: d4f7766a-b9b2-9046-aa1c-1e237a647bc5
+                size: 249GiB
+                capacity: 249GiB
+                capabilities: ntfs initialized
+                configuration: clustersize=4096 created=2017-09-11 15:07:03 filesystem=ntfs label=Windows Server 2008 R2 name=WinServer state=clean
+           *-volume:5
+                description: Linux swap volume
+                vendor: Linux
+                physical id: 6
+                bus info: scsi@0:0.0.0,6
+                logical name: /dev/sda6
+                version: 1
+                serial: 58a07498-eb0e-40d3-8797-8a1f5086226b
+                size: 1023MiB
+                capacity: 1023MiB
+                capabilities: nofs swap initialized
+                configuration: filesystem=swap name=Linux Swap pagesize=4095
+           *-volume:6
+                description: EXT3 volume
+                vendor: Linux
+                physical id: 7
+                bus info: scsi@0:0.0.0,7
+                logical name: /dev/sda7
+                logical name: /
+                version: 1.0
+                serial: ee1a7132-eac6-4921-a76c-c12977c51fdf
+                size: 249GiB
+                capacity: 249GiB
+                capabilities: journaled extended_attributes large_files recover ext3 ext2 initialized
+                configuration: created=2017-09-10 17:56:45 filesystem=ext3 lastmountpoint=/ modified=2017-10-22 12:44:17 mount.fstype=ext3 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2017-10-22 12:44:19 name=Ubuntu14.04LTS state=mounted
+     *-scsi:1
+          physical id: 2
+          logical name: scsi1
+          capabilities: emulated
+        *-cdrom
+             description: DVD-RAM writer
+             product: DVD-RW DA8A6SH
+             vendor: PLDS
+             physical id: 0.0.0
+             bus info: scsi@1:0.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/sr0
+             version: GL61
+             capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuration: ansiversion=5 status=nodisc
+  *-battery
+       description: Lithium Ion Battery
+       product: CRB Battery 0
+       vendor: -Virtual Battery 0-
+       physical id: 1
+       version: 08/08/2010
+       serial: Battery 0
+       slot: Fake
+  *-power UNCLAIMED
+       description: OEM Define 1
+       product: OEM Define 5
+       vendor: OEM Define 2
+       physical id: 2
+       version: OEM Define 6
+       serial: OEM Define 3
+       capacity: 75mWh
